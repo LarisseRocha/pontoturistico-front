@@ -14,7 +14,7 @@ const CreatePost = (props) => {
     return (
         <div className="card">
             <div className="card-body">
-                <h5 className="card-title">Novo Post</h5>
+                <h5 className="card-title">Novo Ponto Turistico</h5>
                 <div className="card-text">
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <div className="form-group">

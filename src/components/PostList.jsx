@@ -12,8 +12,6 @@ const PostList = () => {
     }, []);
 
     return (
-       
-       
                  
         <table className="table">
             <thead>
@@ -30,20 +28,6 @@ const PostList = () => {
                         <tr key={pontoturistico.id}>
                             <td>{pontoturistico.descricao}</td>
                             <td className="text-center">{pontoturistico.datacriacao}</td>
-                            
-                            <td className="text-center">
-                                <div className="btn-group">
-                                    <Link to={`/edit/${pontoturistico.id}`} className="btn btn-primary">
-                                        <i className="fa fa-edit"></i>
-                                    </Link>
-                                    <Link to={`/details/${pontoturistico.id}`} className="btn btn-secondary">
-                                        <i className="fa fa-eye"></i>
-                                    </Link>
-                                    <Link to={`/delete/${pontoturistico.id}`} className="btn btn-danger">
-                                        <i className="fa fa-trash"></i>
-                                    </Link>
-                                </div>
-                            </td>
                         </tr>
                     ))
                 }
