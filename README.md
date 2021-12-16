@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Passo a passo oara a execução:
-npm install
-npm start
+Passo a passo para a execução:
+<p >npm install </p>
+<p> npm start </p>
 
 ## Available Scripts
 
